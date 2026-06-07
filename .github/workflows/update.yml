@@ -11,8 +11,7 @@ permissions:
 jobs:
   build-and-update:
     runs-on: ubuntu-latest
-      env:
-        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true  #强制使用 Node24
+     FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true env  #强制使用 Node24
 
     steps:
       - name: Checkout Code
